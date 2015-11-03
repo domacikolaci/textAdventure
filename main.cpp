@@ -24,7 +24,7 @@ int main()
 
     if (answerGameStart == "yes")
     {
-        cout << "ayyyyyy" << endl;
+        gameLevel1Class();
     }
     else
     {
@@ -33,7 +33,7 @@ int main()
 }
 
 
-int gameLevel1()
+class gameLevel1Class()
 {
-    //Add level 1
+    cout << "ayyyyylmao" << endl;
 }
