@@ -12,36 +12,55 @@ using namespace std;
 
 class gameLevel1
 {
+    string answer;
+    string answer2;
+
     public:
         void ayyLmao(){
             cout << "ayyyyyyyyyyyy" << endl;
+            cin >> answer;
+            std::cout << answer;
+            std::cin >> answer2;
+        }
+};
+
+class characterSetUp
+{
+    gameLevel1 level1;
+    string name;
+    public:
+        void characterStats(){
+            cout << "What is your name adventurer?" << endl;
+            cin >> name;
+            cout << name << endl;
+            level1.ayyLmao();
         }
 };
 
 
 int main()
 {
-    string name;
+
     string answerGameStart;
 
-    gameLevel1 level1;
 
-    cout << "What is your name adventurer?" << endl;
-    cin >> name;
-    cout << "Hello " << name << " Are you ready to set off on an adventure?" << endl;
+    characterSetUp charSetUp;
+
+
+    cout << "Hello Are you ready to set off on an adventure?" << endl;
     cin >> answerGameStart;
 
     if (answerGameStart == "yes")
     {
-        level1.ayyLmao();
-        cin >> name;
+        charSetUp.characterStats();
+
     }
     else
     {
         cout << "riiiiip" << endl;
     }
 
-    return 0;
+
 }
 
 
