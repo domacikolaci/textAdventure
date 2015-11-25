@@ -1,5 +1,7 @@
 #include <iostream>
 #include "player.h"
+#include "enemyGoblin.h"
+#include "level1.h"
 /*
 TODO:
 -Make level 1

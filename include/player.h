@@ -2,6 +2,8 @@
 #define PLAYER_H
 #include <iostream>
 #include <string>
+#include "enemyGoblin.h"
+#include "level1.h"
 
 using namespace std;
 

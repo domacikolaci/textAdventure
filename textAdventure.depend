@@ -1,14 +1,34 @@
 # depslib dependency file v1.0
-1448430769 source:e:\development\textadventure\main.cpp
+1448432835 source:e:\development\textadventure\main.cpp
 	<iostream>
 	"player.h"
+	"enemyGoblin.h"
+	"level1.h"
 
-1448430572 source:e:\development\textadventure\src\player.cpp
+1448432063 source:e:\development\textadventure\src\player.cpp
 	"player.h"
 	<iostream>
 	<string>
 
-1448430223 e:\development\textadventure\include\player.h
+1448432835 e:\development\textadventure\include\player.h
 	<iostream>
 	<string>
+	"enemyGoblin.h"
+	"level1.h"
+
+1448432557 e:\development\textadventure\include\enemygoblin.h
+	<iostream>
+	<string>
+
+1448432557 e:\development\textadventure\include\level1.h
+	<iostream>
+	<string>
+	"player.h"
+	"enemyGoblin.h"
+
+1448431966 source:e:\development\textadventure\src\enemygoblin.cpp
+	"enemyGoblin.h"
+
+1448432981 source:e:\development\textadventure\src\level1.cpp
+	"level1.h"
 
