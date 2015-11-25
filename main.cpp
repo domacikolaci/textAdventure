@@ -10,12 +10,21 @@ TODO:
 */
 using namespace std;
 
+class gameLevel1
+{
+    public:
+        void ayyLmao(){
+            cout << "ayyyyyyyyyyyy" << endl;
+        }
+};
+
+
 int main()
 {
     string name;
     string answerGameStart;
 
-
+    gameLevel1 level1;
 
     cout << "What is your name adventurer?" << endl;
     cin >> name;
@@ -24,16 +33,15 @@ int main()
 
     if (answerGameStart == "yes")
     {
-        gameLevel1Class();
+        level1.ayyLmao();
+        cin >> name;
     }
     else
     {
         cout << "riiiiip" << endl;
     }
+
+    return 0;
 }
 
 
-class gameLevel1Class()
-{
-    cout << "ayyyyylmao" << endl;
-}
