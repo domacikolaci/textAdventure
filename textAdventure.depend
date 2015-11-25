@@ -1,4 +1,14 @@
 # depslib dependency file v1.0
-1448419592 source:e:\development\textadventure\main.cpp
+1448430769 source:e:\development\textadventure\main.cpp
 	<iostream>
+	"player.h"
+
+1448430572 source:e:\development\textadventure\src\player.cpp
+	"player.h"
+	<iostream>
+	<string>
+
+1448430223 e:\development\textadventure\include\player.h
+	<iostream>
+	<string>
 
