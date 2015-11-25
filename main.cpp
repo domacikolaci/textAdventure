@@ -1,58 +1,48 @@
 #include <iostream>
-
+#include "player.h"
 /*
 TODO:
 -Make level 1
 -Make basic enemy
 -Make combat system
 -Make player stats
+--Make HP
+--Make Damage system
 --Make classes
 */
 using namespace std;
 
-class gameLevel1
+
+
+
+/*class gameLevel1
 {
     string answer;
     string answer2;
+    characterSetUp charSetUp;
 
     public:
         void ayyLmao(){
-            cout << "ayyyyyyyyyyyy" << endl;
+            cout << "name should be said after this fam" << endl;
             cin >> answer;
-            std::cout << answer;
+            std::cout << characterSetUp.playerName;
             std::cin >> answer2;
         }
 };
-
-class characterSetUp
-{
-    gameLevel1 level1;
-    string name;
-    public:
-        void characterStats(){
-            cout << "What is your name adventurer?" << endl;
-            cin >> name;
-            cout << name << endl;
-            level1.ayyLmao();
-        }
-};
-
-
+*/
 int main()
 {
 
     string answerGameStart;
 
-
-    characterSetUp charSetUp;
-
+    player player;
 
     cout << "Hello Are you ready to set off on an adventure?" << endl;
     cin >> answerGameStart;
 
     if (answerGameStart == "yes")
     {
-        charSetUp.characterStats();
+        player;
 
     }
     else
@@ -60,7 +50,8 @@ int main()
         cout << "riiiiip" << endl;
     }
 
-
 }
+
+
 
 
