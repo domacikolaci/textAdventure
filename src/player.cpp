@@ -1,16 +1,16 @@
 #include "player.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 player::player()
 {
-    class playerStats{
-        string name;
-        cout << "gday fam" << endl;
-        cin >> name;
 
-    };
+    string playerName;
+
+    cout << "its works dude" << endl;
+    cin >> playerName;
 }
-};
+
 
