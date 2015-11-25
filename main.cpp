@@ -35,8 +35,6 @@ int main()
 
     string answerGameStart;
 
-
-
     cout << "Hello Are you ready to set off on an adventure?" << endl;
     cin >> answerGameStart;
 
