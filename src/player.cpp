@@ -8,13 +8,12 @@ player::player()
 {
     string playerName;
 
-    //Line 12 is for testing purposes only
+    //This line isn for testing purposes
     cout << "you are in player.cpp fam" << endl;
-
 
     cout << "What is your name adventurer?" << endl;
     cin >> playerName;
     cout << playerName << ", you see up the road a goblin, you pull out your sword and get ready to fight..." << endl;
-    cin >> playerName;
-    //load combat
+    level1 level1;
+    level1;
 }

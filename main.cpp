@@ -14,24 +14,6 @@ TODO:
 */
 using namespace std;
 
-
-
-
-/*class gameLevel1
-{
-    string answer;
-    string answer2;
-    characterSetUp charSetUp;
-
-    public:
-        void ayyLmao(){
-            cout << "name should be said after this fam" << endl;
-            cin >> answer;
-            std::cout << characterSetUp.playerName;
-            std::cin >> answer2;
-        }
-};
-*/
 int main()
 {
 
